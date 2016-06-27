@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/product-cube.iml" filepath="$PROJECT_DIR$/.idea/modules/product-cube.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/product-cube_integrationTest.iml" filepath="$PROJECT_DIR$/.idea/modules/product-cube_integrationTest.iml" group="product-cube" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/product-cube_main.iml" filepath="$PROJECT_DIR$/.idea/modules/product-cube_main.iml" group="product-cube" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/product-cube_test.iml" filepath="$PROJECT_DIR$/.idea/modules/product-cube_test.iml" group="product-cube" />
+    </modules>
+  </component>
+</project>
