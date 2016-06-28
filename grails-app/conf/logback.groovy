@@ -10,6 +10,9 @@ appender('STDOUT', ConsoleAppender) {
 
 root(ERROR, ['STDOUT'])
 
+logger("org.hibernate.SQL", DEBUG, ["STDOUT"], false)
+logger("org.hibernate.type.descriptor.sql.BasicBinder", TRACE, ["STDOUT"], false)
+
 def targetDir = BuildSettings.TARGET_DIR
 if (Environment.isDevelopmentMode() && targetDir) {
     appender("FULL_STACKTRACE", FileAppender) {

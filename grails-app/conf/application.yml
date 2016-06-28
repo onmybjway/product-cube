@@ -7,7 +7,8 @@ hibernate:
         region.factory_class: 'org.hibernate.cache.ehcache.EhCacheRegionFactory'
 
 dataSource:
-    logsql: true
+    logSql: true
+    formatSql: true
     pooled: true
     jmxExport: true
     driverClassName: org.h2.Driver
